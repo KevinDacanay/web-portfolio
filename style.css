@@ -120,3 +120,21 @@ body {
 .copyright {
     font-size: 0.85rem;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px; 
+    }
+    .header div {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    .nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+}
